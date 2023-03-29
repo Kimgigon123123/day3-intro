@@ -1,0 +1,93 @@
+/*초기화*/
+
+*{
+    margin: 0; /* (바깥)여백 */
+    padding: 0; /* (안) 여백 */
+}
+
+
+.bg-blue {
+    background-color: blue;
+    height: 200px;
+   
+}
+
+#avatar{
+    background-color: goldenrod;
+    width: 170px; /* 가로폭 */
+    height:170px; /* 세로폭 */
+    border-radius: 50%; /* 테두리-반경 */
+    overflow: hidden; /* 넘치는 부분 없앰 */
+    margin:0 auto; /* 가로 중앙에 배치 */
+    position: relative; /* 위치 : 상대적인 기준 */
+    top: 125px; /* 위에서 125px만큼 떨어짐 */
+}
+
+
+    .about {
+        /* 가로 폭 */
+        margin:100px auto; /* 여백 : 상,하0 좌,우 auto(알아서) */
+        text-align: center; /* 텍스트-정렬: 가운데 */
+    }
+
+
+    /* media query */
+     @media screen and (max-width: 480px) {
+        #avatar-box{
+            background-color: pink;
+
+        }
+    }
+
+
+
+
+.letme{
+    text-align: center;
+    font-size: 24px;
+    color:orange
+}
+
+.myself{
+    text-align: center;
+    font-size: 36px;
+    color:green;
+    
+}
+    .wrap h2{
+        font-size: 32px
+}
+
+.wrap{
+    text-align:center;
+}
+
+.wellcom {
+    margin:20px;
+}
+
+.info {
+    margin:20px;
+}
+.career{
+    margin:20px;
+}
+
+.movie{
+    margin:20px;
+}
+
+.Kgg{
+    text-align: center;
+}
+
+.copy{
+    background-color: blue;
+    padding:30px
+
+}
+
+.copy p{
+    display:inline-block;
+    margin:0 100px 0 0 ; /*위 오른쪽 아래 왼쪽*/
+}
