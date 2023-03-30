@@ -28,6 +28,11 @@
         /* 가로 폭 */
         margin:100px auto; /* 여백 : 상,하0 좌,우 auto(알아서) */
         text-align: center; /* 텍스트-정렬: 가운데 */
+        color: gray;
+    }
+
+    .about h1 {
+        color:black;
     }
 
 
@@ -83,7 +88,9 @@
 
 .copy{
     background-color: blue;
-    padding:30px
+    padding:30px;
+    text-align: center;
+    color: white;
 
 }
 
